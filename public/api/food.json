@@ -2,99 +2,99 @@
   {
     "id": "item1",
     "name": "Dosa",
-    "image": "c1.png",
+    "image": "chicken/c1.png",
     "price": "30",
     "catergory": "chicken"
   },
   {
     "id": "item2",
-    "name": "Dosa",
-    "image": "c2.png",
+    "name": "Chicken 65",
+    "image": "chicken/c2.png",
     "price": "30",
     "catergory": "chicken"
   },
   {
     "id": "item3",
     "name": "Dosa",
-    "image": "c3.png",
+    "image": "chicken/c3.png",
     "price": "30",
     "catergory": "chicken"
   },
   {
     "id": "item4",
     "name": "Dosa",
-    "image": "c4.png",
+    "image": "chicken/c4.png",
     "price": "30",
     "catergory": "chicken"
   },
   {
     "id": "item5",
     "name": "Dosa",
-    "image": "c6.png",
+    "image": "chicken/c5.png",
     "price": "30",
     "catergory": "chicken"
   },
   {
     "id": "item6",
     "name": "Dosa",
-    "image": "c5.png",
+    "image": "chicken/c6.png",
     "price": "30",
     "catergory": "chicken"
   },
   {
     "id": "item7",
     "name": "Dosa",
-    "image": "c1.png",
+    "image": "fish/fi1.png",
     "price": "30",
     "catergory": "fish"
   },
   {
     "id": "item8",
     "name": "Dosa",
-    "image": "c1.png",
+    "image": "fish/fi2.png",
     "price": "30",
     "catergory": "fish"
   },
   {
     "id": "item9",
     "name": "Dosa",
-    "image": "c1.png",
+    "image": "fish/fi3.png",
     "price": "30",
-    "catergory": "1"
+    "catergory": "fish"
   },
   {
     "id": "item10",
     "name": "Dosa",
-    "image": "c1.png",
+    "image": "fish/fi4.png",
     "price": "30",
-    "catergory": "1"
+    "catergory": "fish"
   },
   {
     "id": "item11",
     "name": "Dosa",
-    "image": "c1.png",
+    "image": "fish/fi5.png",
     "price": "30",
-    "catergory": "1"
+    "catergory": "fish"
   },
   {
     "id": "item12",
     "name": "Dosa",
-    "image": "c1.png",
+    "image": "fruits/f1.png",
     "price": "30",
-    "catergory": "1"
+    "catergory": "fruits"
   },
   {
     "id": "item13",
     "name": "Dosa",
-    "image": "c1.png",
+    "image": "fruits/f2.png",
     "price": "30",
-    "catergory": "1"
+    "catergory": "fruits"
   },
   {
     "id": "item14",
     "name": "Dosa",
-    "image": "c1.png",
+    "image": "fruits/f3.png",
     "price": "30",
-    "catergory": "1"
+    "catergory": "fruits"
   }
 ]
