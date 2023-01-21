@@ -1,5 +1,5 @@
-import Application from 'stockcafetick/app';
-import config from 'stockcafetick/config/environment';
+import Application from 'foodie/app';
+import config from 'foodie/config/environment';
 import * as QUnit from 'qunit';
 import { setApplication } from '@ember/test-helpers';
 import { setup } from 'qunit-dom';

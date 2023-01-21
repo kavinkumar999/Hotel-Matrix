@@ -1,5 +1,5 @@
 import EmberRouter from '@ember/routing/router';
-import config from 'stockcafetick/config/environment';
+import config from 'foodie/config/environment';
 
 export default class Router extends EmberRouter {
   location = config.locationType;
