@@ -1,0 +1,12 @@
+{{page-title "Home"}}
+<div class="d-flex justify-content-between">
+  {{#each this.itemsData as |items|}}
+    <a {{action "fooditems" item.category}} class="filter-cards">
+      {{svg-jar items.svg width="30px" height="30px"}}
+      {{item.name}}
+    </a>
+  {{/each}}
+</div>
+{{#each this.foodData as |data|}}
+  <div>{{data.name}}</div>
+{{/each}}
