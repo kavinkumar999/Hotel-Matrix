@@ -1,12 +1,24 @@
 {{page-title "Home"}}
-<div class="d-flex justify-content-between">
-  {{#each this.itemsData as |items|}}
-    <a {{action "fooditems" item.category}} class="filter-cards">
-      {{svg-jar items.svg width="30px" height="30px"}}
-      {{item.name}}
-    </a>
+<div class="d-flex justify-content-center gap-5 mt-5">
+  {{#each this.itemsData as |item|}}
+    <button {{action "fooditems" item.image}} class="filter-cards shadow">
+      <div class="menu-svg text-center rounded-pill">
+        {{svg-jar item.image width="30px" height="38px"}}
+      </div>
+      <p>{{item.name}}</p>
+    </button>
   {{/each}}
 </div>
-{{#each this.foodData as |data|}}
-  <div>{{data.name}}</div>
-{{/each}}
+<div class="food-items">
+  {{#each this.foodData as |data|}}
+    <div class="food-item">
+      <div class="food-image"><img src="{{data.img}}" style="width: 130px; height: 130px"></div>
+      <div class="food-item-details">
+        <div class="font-semibold">{{data.name}}</div>
+        <div>₹{{data.price}}</div>
+      </div>
+      <button class="btn btn-outline-dark align-self-center" type="button">Add</button>
+    </div>
+  {{/each}}
+</div>
+

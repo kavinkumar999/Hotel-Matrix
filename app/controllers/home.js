@@ -1,7 +1,29 @@
 import Controller from '@ember/controller';
 import { alias } from '@ember/object/computed';
 
+
+const itemsData = [{
+  name: 'Chicken',
+  image: 'chicken'
+}, {
+  name: 'Fish',
+  image: 'fish'
+}, {
+  name: 'Rice',
+  image: 'rice'
+}, {
+  name: 'Fruits',
+  image: 'fruits'
+}, {
+  name: 'Drinks',
+  image: 'drinks'
+}, {
+  name: 'Noodles',
+  image: 'noodles'
+}]
+
 export default Controller.extend({
+  itemsData,
   foodData: alias('model'),
 
   actions: {

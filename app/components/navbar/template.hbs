@@ -4,13 +4,12 @@
     FoodiePro
   </a>
   <div class="right-nav d-flex align">
-    <a href="#">Menu</a>
-    <a {{action "toggleFlyout"}} href="#">Orders</a>
-    <a href="#">Orders</a>
-    
     {{#if this.login}}
       <button class="btn btn-outline-dark" type="button">Login</button>
       <button  class="btn btn-outline-dark" type="button">Sign Up</button>
+    {{else}}
+      <button type="button" class="btn btn-link" href="#">Order</button>
+      <a {{action "toggleFlyout"}} href="#">#</a>
     {{/if}}
   </div>
 </nav>

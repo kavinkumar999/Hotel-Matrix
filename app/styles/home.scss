@@ -1,0 +1,65 @@
+.filter-cards {
+  border: 0;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-direction: column;
+  cursor: pointer;
+  height: 7rem;
+  width: 7rem;
+}
+.filter-cards:hover, .filter-cards:active, .filter-cards:focus {
+  background-color: red;
+  color: white;
+  .menu-svg {
+    background-color: white;
+    fill: black;
+  }
+}
+.menu-svg {
+  width: 2.5rem;
+  height: 2.5rem;
+  background: red;
+  fill: white;
+}
+.food-items {
+  margin-top: 5rem;
+  flex-wrap: wrap;
+  flex-direction: row;
+  display: flex;
+  gap: 6rem;
+  justify-content: center;
+  .food-item {
+    gap: 1rem;
+    cursor: pointer;
+    position: relative;
+    height: 12rem;
+    justify-content: end;
+    width: 11rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    padding-bottom: 15px;
+    .food-image {
+      position: absolute;
+      top: -40px;
+      :hover {
+        transform: scale(1.2);
+      }
+    }
+    .food-item-details {
+      display: flex;
+      font-weight: 700;
+      flex-direction: row;
+      justify-content: space-around;
+      .food-cart {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+}
