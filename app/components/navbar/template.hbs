@@ -1,4 +1,4 @@
-<nav class="navbar navbar-light">
+<nav class="navbar navbar-light mt-4">
   <a class="navbar-brand" href="#">
     <img src="logo.png" width="30" height="30" class="d-inline-block align-top" alt="product-logo">
     FoodiePro
@@ -8,8 +8,11 @@
       <button class="btn btn-outline-dark" type="button">Login</button>
       <button  class="btn btn-outline-dark" type="button">Sign Up</button>
     {{else}}
-      <button type="button" class="btn btn-link" href="#">Order</button>
-      <a {{action "toggleFlyout"}} href="#">#</a>
+      <button type="button" class="btn">Orders</button>
+      <div {{action "toggleFlyout"}} class="cart-container">
+        <img src="cart.png" width="30px" height="30px">
+        <span class="order-count rounded-pill">0{{@orderCount}}</span>
+      </div>
     {{/if}}
   </div>
 </nav>

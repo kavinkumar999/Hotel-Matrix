@@ -63,3 +63,15 @@
     }
   }
 }
+.cart-container {
+  position: relative;
+  cursor: pointer;
+  .order-count {
+    font-weight: 600;
+    padding: 0 3px;
+    position: absolute;
+    top: -13px;
+    color: white;
+    background-color: red;
+  }
+}

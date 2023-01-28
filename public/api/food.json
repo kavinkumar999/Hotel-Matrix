@@ -1,0 +1,100 @@
+[
+  {
+    "id": "item1",
+    "name": "Dosa",
+    "image": "c1.png",
+    "price": "30",
+    "catergory": "chicken"
+  },
+  {
+    "id": "item1",
+    "name": "Dosa",
+    "image": "c2.png",
+    "price": "30",
+    "catergory": "chicken"
+  },
+  {
+    "id": "item1",
+    "name": "Dosa",
+    "image": "c3.png",
+    "price": "30",
+    "catergory": "chicken"
+  },
+  {
+    "id": "item1",
+    "name": "Dosa",
+    "image": "c4.png",
+    "price": "30",
+    "catergory": "chicken"
+  },
+  {
+    "id": "item1",
+    "name": "Dosa",
+    "image": "c6.png",
+    "price": "30",
+    "catergory": "chicken"
+  },
+  {
+    "id": "item1",
+    "name": "Dosa",
+    "image": "c7.png",
+    "price": "30",
+    "catergory": "chicken"
+  },
+  {
+    "id": "item1",
+    "name": "Dosa",
+    "image": "c1.png",
+    "price": "30",
+    "catergory": "1"
+  },
+  {
+    "id": "item1",
+    "name": "Dosa",
+    "image": "c1.png",
+    "price": "30",
+    "catergory": "1"
+  },
+  {
+    "id": "item1",
+    "name": "Dosa",
+    "image": "c1.png",
+    "price": "30",
+    "catergory": "1"
+  },
+  {
+    "id": "item1",
+    "name": "Dosa",
+    "image": "c1.png",
+    "price": "30",
+    "catergory": "1"
+  },
+  {
+    "id": "item1",
+    "name": "Dosa",
+    "image": "c1.png",
+    "price": "30",
+    "catergory": "1"
+  },
+  {
+    "id": "item1",
+    "name": "Dosa",
+    "image": "c1.png",
+    "price": "30",
+    "catergory": "1"
+  },
+  {
+    "id": "item1",
+    "name": "Dosa",
+    "image": "c1.png",
+    "price": "30",
+    "catergory": "1"
+  },
+  {
+    "id": "item1",
+    "name": "Dosa",
+    "image": "c1.png",
+    "price": "30",
+    "catergory": "1"
+  }
+]
