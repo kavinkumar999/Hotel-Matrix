@@ -4,14 +4,14 @@
     FoodiePro
   </a>
   <div class="right-nav d-flex align">
-    {{#if this.login}}
+    {{#if @login}}
       <button class="btn btn-outline-dark" type="button">Login</button>
       <button  class="btn btn-outline-dark" type="button">Sign Up</button>
     {{else}}
-      <button type="button" class="btn">Orders</button>
+      <button type="button" class="btn btn-outline-dark">Orders</button>
       <div {{action "toggleFlyout"}} class="cart-container">
         <img src="png/cart.png" width="30px" height="30px">
-        <span class="order-count rounded-pill">0{{@orderCount}}</span>
+        <span class="order-count rounded-pill">{{@orderCount}}</span>
       </div>
     {{/if}}
   </div>

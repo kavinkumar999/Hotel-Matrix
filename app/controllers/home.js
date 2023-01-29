@@ -1,5 +1,5 @@
 import Controller from '@ember/controller';
-import { alias } from '@ember/object/computed';
+import { oneWay } from '@ember/object/computed';
 
 
 const itemsData = [{
@@ -23,21 +23,23 @@ const itemsData = [{
 }]
 
 export default Controller.extend({
+  login: false,
+  orderCount: 0,
   itemsData,
-  foodData: alias('model'),
+  foodData: oneWay('model'),
+  cartItem: {},
 
   actions: {
+    AddToCart(item) {
+      this.cartItem[item.id] = item;
+      let numberOfItems =  Object.keys(this.cartItem).length
+      this.set('orderCount', numberOfItems);
+    },
+    
     fooditems(type) {
-      let filterData;
-      if (type === 'breakfast') {
-        filterData = this.model.filter((obj) => {
-          return obj.catergory === '1';
-        });
-      } else if (type === 'lunch') {
-        filterData = this.model.filterBy('catergory' === '2');
-      } else {
-        filterData = this.model.filterBy('catergory' === '3');
-      }
+      let filterData = this.model.filter((obj) => {
+        return obj.catergory === type;
+      });
       this.set('foodData', filterData);
     },
   },

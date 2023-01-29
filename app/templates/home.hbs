@@ -1,4 +1,5 @@
 {{page-title "Home"}}
+<Navbar @login={{this.login}} @orderCount={{this.orderCount}}></Navbar>
 <div class="d-flex justify-content-center gap-5 mt-5">
   {{#each this.itemsData as |item|}}
     <button {{action "fooditems" item.image}} class="filter-cards shadow">
@@ -17,7 +18,7 @@
         <div class="font-semibold">{{data.name}}</div>
         <div>₹{{data.price}}</div>
       </div>
-      <button class="btn btn-outline-dark align-self-center" type="button">Add</button>
+      <button {{action "AddToCart" data}} class="btn btn-outline-dark align-self-center" type="button">Add</button>
     </div>
   {{/each}}
 </div>
