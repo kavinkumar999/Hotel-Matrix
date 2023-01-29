@@ -75,3 +75,49 @@
     background-color: red;
   }
 }
+.flyout-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flyout__content {
+  position: relative;
+  color: white;
+  height: 100%;
+  border-radius: 20px;
+  background-color: #282a2c;
+  .flyout-body {
+    .flyout-items {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      width: 100%;
+      height: 350px;
+      overflow-y: scroll;
+      scroll-behavior: smooth;
+      div {
+        background-color: #2e3033;
+        border-radius: 20px;
+        align-items: center;
+        padding: 10px 0;
+      }
+    }
+    .flyout-total {
+      background-color: #282a2c;
+      border-radius: 20px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      color: white;
+      position: absolute;
+      bottom: 3rem;
+      right: 0;
+      padding: 2rem;
+    }
+  }
+
+}
+.manipulation {
+  cursor: pointer;
+  font-size: 25px;
+}

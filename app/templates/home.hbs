@@ -1,5 +1,5 @@
 {{page-title "Home"}}
-<Navbar @login={{this.login}} @orderCount={{this.orderCount}}></Navbar>
+<Navbar @login={{this.login}} @orderCount={{this.orderCount}} @foodItems={{this.foodData}}></Navbar>
 <div class="d-flex justify-content-center gap-5 mt-5">
   {{#each this.itemsData as |item|}}
     <button {{action "fooditems" item.image}} class="filter-cards shadow">

@@ -46,14 +46,14 @@
     "name": "Dosa",
     "image": "c1.png",
     "price": "30",
-    "catergory": "1"
+    "catergory": "fish"
   },
   {
     "id": "item8",
     "name": "Dosa",
     "image": "c1.png",
     "price": "30",
-    "catergory": "1"
+    "catergory": "fish"
   },
   {
     "id": "item9",

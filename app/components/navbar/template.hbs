@@ -17,5 +17,5 @@
   </div>
 </nav>
 {{#if this.isOpen}}
-  <Flyout isOpen={{this.isOpen}}></Flyout>
+  <Flyout @isOpen={{this.isOpen}} @foodItems={{@foodItems}} @closeFlyout={{action "toggleFlyout"}}></Flyout>
 {{/if}}

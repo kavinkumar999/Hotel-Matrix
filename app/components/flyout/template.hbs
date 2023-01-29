@@ -1,5 +1,41 @@
 <div class="flyout {{if @isOpen "is-visible"}}">
-  <div class="flyout__content">
-    {{yield}}
+  <div class="flyout__content flex justify-content-between">
+    <div class="flyout-top">
+      <img {{action "closeFlyout"}} src="png/l-arrow.png" width="40px" height="40px">
+      <div>Cart</div>
+      <div>Clear Data</div>
+    </div>
+    <div class="flyout-body">
+      <div class="flyout-items mt-2">
+        {{#each @foodItems as |item|}}
+          <div class="d-flex flex-row justify-content-around">
+            <img class="rounded-pill" width="50px" height="50px" src="png/{{item.image}}" alt="food">
+            <div>{{item.name}}</div>
+            <div class="d-flex flex-row gap-4">
+              <div {{action "minusQuantity" item}} class="manipulation">-</div>
+              <div>{{item.count}}</div>
+              <div {{action "addQuantity" item}} class="manipulation">+</div>
+            </div>
+          </div>
+        {{/each}}
+      </div>
+      <div class="flyout-total">
+        <div class="d-flex justify-content-between mt-4">
+          <div>Sub Total</div>
+          <div>{{this.subTotal}}</div>
+        </div>
+        <div class="d-flex justify-content-between mt-4">
+          <div>Delivery</div>
+          <div>25</div>
+        </div>
+        <div class="d-flex justify-content-between mt-4"></div>
+        <div class="border"></div>
+        <div class="d-flex justify-content-between mt-4">
+          <div>Total</div>
+          <div>{{this.total}}</div>
+        </div>
+        <button class="btn btn-success mt-5" type="button">Proceed to checkout</button>
+      </div>
+    </div>
   </div>
 </div>
