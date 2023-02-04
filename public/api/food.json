@@ -96,5 +96,96 @@
     "image": "fruits/f3.png",
     "price": "30",
     "catergory": "fruits"
+  },
+  {
+    "id": "item15",
+    "name": "Dosa",
+    "image": "rice/r1.png",
+    "price": "30",
+    "catergory": "rice"
+  },
+  {
+    "id": "item16",
+    "name": "Dosa",
+    "image": "rice/r2.png",
+    "price": "30",
+    "catergory": "rice"
+  },
+  {
+    "id": "item17",
+    "name": "Dosa",
+    "image": "rice/r3.png",
+    "price": "30",
+    "catergory": "rice"
+  },
+  {
+    "id": "item18",
+    "name": "Dosa",
+    "image": "rice/r4.png",
+    "price": "30",
+    "catergory": "rice"
+  },
+  {
+    "id": "item19",
+    "name": "Dosa",
+    "image": "rice/r5.png",
+    "price": "30",
+    "catergory": "rice"
+  },
+  {
+    "id": "item20",
+    "name": "Dosa",
+    "image": "drinks/d1.png",
+    "price": "30",
+    "catergory": "drinks"
+  },
+  {
+    "id": "item20",
+    "name": "Dosa",
+    "image": "drinks/d2.png",
+    "price": "30",
+    "catergory": "drinks"
+  },
+  {
+    "id": "item20",
+    "name": "Dosa",
+    "image": "drinks/d3.png",
+    "price": "30",
+    "catergory": "drinks"
+  },
+  {
+    "id": "item20",
+    "name": "Dosa",
+    "image": "drinks/d4.png",
+    "price": "30",
+    "catergory": "drinks"
+  },
+  {
+    "id": "item20",
+    "name": "Dosa",
+    "image": "drinks/d5.png",
+    "price": "30",
+    "catergory": "drinks"
+  },
+  {
+    "id": "item20",
+    "name": "Dosa",
+    "image": "drinks/d6.png",
+    "price": "30",
+    "catergory": "drinks"
+  },
+  {
+    "id": "item20",
+    "name": "Dosa",
+    "image": "drinks/d7.png",
+    "price": "30",
+    "catergory": "drinks"
+  },
+  {
+    "id": "item20",
+    "name": "Dosa",
+    "image": "drinks/d8.png",
+    "price": "30",
+    "catergory": "drinks"
   }
 ]
