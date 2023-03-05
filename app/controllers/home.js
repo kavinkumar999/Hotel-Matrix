@@ -1,28 +1,36 @@
 import Controller from '@ember/controller';
 import { oneWay } from '@ember/object/computed';
+import { inject as service} from '@ember/service';
 
-
-const itemsData = [{
-  name: 'Chicken',
-  image: 'chicken'
-}, {
-  name: 'Fish',
-  image: 'fish'
-}, {
-  name: 'Rice',
-  image: 'rice'
-}, {
-  name: 'Fruits',
-  image: 'fruits'
-}, {
-  name: 'Drinks',
-  image: 'drinks'
-}, {
-  name: 'Noodles',
-  image: 'noodles'
-}]
+const itemsData = [
+  {
+    name: 'Chicken',
+    node: 'chicken',
+  },
+  {
+    name: 'Fish',
+    node: 'fish',
+  },
+  {
+    name: 'Rice',
+    node: 'rice',
+  },
+  {
+    name: 'Fruits',
+    node: 'fruits',
+  },
+  {
+    name: 'Drinks',
+    node: 'drinks',
+  },
+  {
+    name: 'Noodles',
+    node: 'noodles',
+  },
+];
 
 export default Controller.extend({
+  shoppingCart: service(),
   login: false,
   orderCount: 0,
   itemsData,
@@ -31,12 +39,12 @@ export default Controller.extend({
 
   actions: {
     AddToCart(item) {
-      this.cartItem[item.id] = item;
-      let numberOfItems =  Object.keys(this.cartItem).length
+      this.shoppingCart.addItem(item);
+      let numberOfItems = Object.keys(this.shoppingCart.items).length;
       this.set('orderCount', numberOfItems);
     },
-    
-    fooditems(type) {
+
+    foodItemsType(type) {
       let filterData = this.model.filter((obj) => {
         return obj.catergory === type;
       });

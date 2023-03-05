@@ -3,11 +3,11 @@
     <div class="flyout-top">
       <img {{action "closeFlyout"}} class="cursor-pointer" src="png/l-arrow.png" width="40px" height="40px">
       <div>Cart</div>
-      <div class="cursor-pointer">Clear Data</div>
+      <div {{action "clearData"}} class="cursor-pointer">Clear Data</div>
     </div>
     <div class="flyout-body">
       <div class="flyout-items mt-2">
-        {{#each @foodItems as |item|}}
+        {{#each-in this.foodCartItems as |key item|}}
           <div class="d-flex flex-row justify-content-around">
             <img class="rounded-pill" width="50px" height="50px" src="png/{{item.image}}" alt="food">
             <div>{{item.name}}</div>
@@ -17,7 +17,7 @@
               <div {{action "addQuantity" item}} class="manipulation">+</div>
             </div>
           </div>
-        {{/each}}
+        {{/each-in}}
       </div>
       <div class="flyout-total">
         <div class="d-flex justify-content-between mt-4">

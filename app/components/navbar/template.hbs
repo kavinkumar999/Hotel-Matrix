@@ -11,11 +11,11 @@
       <button type="button" class="btn btn-outline-dark">Orders</button>
       <div {{action "toggleFlyout"}} class="cart-container">
         <img src="png/cart.png" width="30px" height="30px">
-        <span class="order-count rounded-pill">{{@orderCount}}</span>
+        <span class="order-count rounded-pill">{{this.orderCount}}</span>
       </div>
     {{/if}}
   </div>
 </nav>
 {{#if this.isOpen}}
-  <Flyout @isOpen={{this.isOpen}} @foodItems={{@foodItems}} @closeFlyout={{action "toggleFlyout"}}></Flyout>
+  <Flyout @isOpen={{this.isOpen}} @closeFlyout={{action "toggleFlyout"}}></Flyout>
 {{/if}}
