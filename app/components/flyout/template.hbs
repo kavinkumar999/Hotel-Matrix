@@ -17,6 +17,8 @@
               <div {{action "addQuantity" item}} class="manipulation">+</div>
             </div>
           </div>
+        {{else}}
+          {{svg-jar "empty-cart"}}
         {{/each-in}}
       </div>
       <div class="flyout-total">
@@ -26,7 +28,7 @@
         </div>
         <div class="d-flex justify-content-between mt-4">
           <div>Delivery</div>
-          <div>25</div>
+          <div>{{this.delivery}}</div>
         </div>
         <div class="d-flex justify-content-between mt-4"></div>
         <div class="border"></div>
