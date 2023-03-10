@@ -105,6 +105,18 @@
 .cursor-pointer {
   cursor: pointer;
 }
+.radio-items {
+  position: absolute;
+  width: 7rem;
+  height: 7rem;
+  opacity: 0;
+}
+.card-group {
+  input[type="radio"]:checked + button {
+    background: #faebd7;
+    border: 1px solid #e4870b;
+  }
+}
 .flyout {
   border-radius: 15px;
   position: fixed;

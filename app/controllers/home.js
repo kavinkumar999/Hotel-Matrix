@@ -1,6 +1,6 @@
 import Controller from '@ember/controller';
-import { oneWay } from '@ember/object/computed';
-import { inject as service} from '@ember/service';
+import { computed } from '@ember/object';
+import { inject as service } from '@ember/service';
 
 const itemsData = [
   {
@@ -34,7 +34,14 @@ export default Controller.extend({
   login: false,
   orderCount: 0,
   itemsData,
-  foodData: oneWay('model'),
+  foodData: computed('model', {
+    get() {
+     return this.model.filterBy('catergory', 'chicken');
+    },
+    set(key, value) {
+      return value;
+    }
+  }),
   cartItem: {},
 
   actions: {

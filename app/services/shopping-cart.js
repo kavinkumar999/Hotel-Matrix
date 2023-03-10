@@ -1,5 +1,5 @@
 import Service from '@ember/service';
-import { A } from '@ember/array'
+import { A } from '@ember/array';
 export default class ShoppingCartService extends Service {
   items = A([]);
 
@@ -12,10 +12,9 @@ export default class ShoppingCartService extends Service {
   }
 
   empty() {
-    this.items.clear()
+    this.items.clear();
   }
   removeDuplicates(items) {
     return [...new Set(items)];
   }
-
 }
