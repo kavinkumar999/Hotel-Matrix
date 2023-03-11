@@ -27,6 +27,8 @@
       </div>
       <button {{action "AddToCart" data}} class="btn btn-outline-dark align-self-center" type="button">Add</button>
     </div>
+  {{else}}
+    {{svg-jar "empty-item" height="20rem"}}
   {{/each}}
 </div>
 
