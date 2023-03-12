@@ -3,182 +3,182 @@
     "id": "item1",
     "name": "Dragon Chicken",
     "image": "chicken/c1.png",
-    "price": "30",
+    "price": "130",
     "catergory": "chicken"
   },
   {
     "id": "item2",
     "name": "Chicken 65",
     "image": "chicken/c2.png",
-    "price": "30",
+    "price": "100",
     "catergory": "chicken"
   },
   {
     "id": "item3",
     "name": "Pepper Chicken",
     "image": "chicken/c3.png",
-    "price": "30",
+    "price": "150",
     "catergory": "chicken"
   },
   {
     "id": "item4",
     "name": "Fried chicken",
     "image": "chicken/c4.png",
-    "price": "30",
+    "price": "130",
     "catergory": "chicken"
   },
   {
     "id": "item5",
     "name": "Chicken Fry",
     "image": "chicken/c5.png",
-    "price": "30",
+    "price": "140",
     "catergory": "chicken"
   },
   {
     "id": "item6",
     "name": "Kadai Chicken",
     "image": "chicken/c6.png",
-    "price": "30",
+    "price": "130",
     "catergory": "chicken"
   },
   {
     "id": "item7",
     "name": "Fish Plate",
     "image": "fish/fi1.png",
-    "price": "30",
+    "price": "80",
     "catergory": "fish"
   },
   {
     "id": "item8",
     "name": "Fish Grill",
     "image": "fish/fi2.png",
-    "price": "30",
+    "price": "130",
     "catergory": "fish"
   },
   {
     "id": "item9",
     "name": "Fish Toast",
     "image": "fish/fi3.png",
-    "price": "30",
+    "price": "130",
     "catergory": "fish"
   },
   {
     "id": "item10",
     "name": "Fish Fry",
     "image": "fish/fi4.png",
-    "price": "30",
+    "price": "140",
     "catergory": "fish"
   },
   {
     "id": "item11",
     "name": "Fish Savage",
     "image": "fish/fi5.png",
-    "price": "30",
+    "price": "130",
     "catergory": "fish"
   },
   {
     "id": "item12",
     "name": "Strawberry",
     "image": "fruits/f1.png",
-    "price": "30",
+    "price": "80",
     "catergory": "fruits"
   },
   {
     "id": "item13",
     "name": "Pine Apple",
     "image": "fruits/f2.png",
-    "price": "30",
+    "price": "100",
     "catergory": "fruits"
   },
   {
     "id": "item14",
     "name": "Grapes",
     "image": "fruits/f3.png",
-    "price": "30",
+    "price": "80",
     "catergory": "fruits"
   },
   {
     "id": "item15",
     "name": "Fried Rice",
     "image": "rice/r1.png",
-    "price": "30",
+    "price": "130",
     "catergory": "rice"
   },
   {
     "id": "item16",
     "name": "Chicken Rice",
     "image": "rice/r2.png",
-    "price": "30",
+    "price": "130",
     "catergory": "rice"
   },
   {
     "id": "item17",
     "name": "Chicken Briyani",
     "image": "rice/r3.png",
-    "price": "30",
+    "price": "90",
     "catergory": "rice"
   },
   {
     "id": "item18",
     "name": "Tum Briyani",
     "image": "rice/r4.png",
-    "price": "30",
+    "price": "90",
     "catergory": "rice"
   },
   {
     "id": "item19",
     "name": "Coconut Rice",
     "image": "rice/r5.png",
-    "price": "30",
+    "price": "70",
     "catergory": "rice"
   },
   {
     "id": "item20",
     "name": "Red Bull",
     "image": "drinks/d1.png",
-    "price": "30",
+    "price": "130",
     "catergory": "drinks"
   },
   {
     "id": "item20",
     "name": "Pepsi",
     "image": "drinks/d2.png",
-    "price": "30",
+    "price": "130",
     "catergory": "drinks"
   },
   {
     "id": "item20",
     "name": "Monster",
     "image": "drinks/d3.png",
-    "price": "30",
+    "price": "130",
     "catergory": "drinks"
   },
   {
     "id": "item20",
     "name": "Blue Mint",
     "image": "drinks/d4.png",
-    "price": "30",
+    "price": "130",
     "catergory": "drinks"
   },
   {
     "id": "item20",
     "name": "Sprite",
     "image": "drinks/d5.png",
-    "price": "30",
+    "price": "130",
     "catergory": "drinks"
   },
   {
     "id": "item20",
     "name": "Fanta",
     "image": "drinks/d6.png",
-    "price": "30",
+    "price": "130",
     "catergory": "drinks"
   },
   {
     "id": "item20",
     "name": "Coca cola",
     "image": "drinks/d8.png",
-    "price": "30",
+    "price": "130",
     "catergory": "drinks"
   }
 ]
