@@ -4,7 +4,7 @@
   {{#each this.itemsData as |item index|}}
     <div class="card-group">
       {{#if (equal index 0)}}
-        <input type="radio" name="items" class="radio-items {{index}}" id="{{item.node}}" value="{{item.node}}" checked/>
+        <input type="radio" name="items" class="radio-items {{index}}" id="{{item.node}}" value="{{item.node}}" checked  onchange={{action "foodItemsType" item.node}}/>
       {{else}}
         <input type="radio" name="items" class="radio-items {{index}}" id="{{item.node}}" value="{{item.node}}" onchange={{action "foodItemsType" item.node}}/>
       {{/if}}
