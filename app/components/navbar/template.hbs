@@ -8,7 +8,8 @@
       <button class="btn btn-outline-dark" type="button">Login</button>
       <button  class="btn btn-outline-dark" type="button">Sign Up</button>
     {{else}}
-      <button type="button" class="btn btn-outline-dark">Orders</button>
+      <LinkTo @route="home"class="btn btn-outline-dark">Home</LinkTo>
+      <LinkTo @route="orders"class="btn btn-outline-dark">Orders</LinkTo>
       <div {{action "toggleFlyout"}} class="cart-container">
         <img src="png/cart.png" width="30px" height="30px">
         <span class="order-count rounded-pill">{{this.orderCount}}</span>
