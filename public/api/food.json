@@ -4,6 +4,7 @@
     "name": "Dragon Chicken",
     "image": "chicken/c1.png",
     "price": "130",
+    "count": 1,
     "catergory": "chicken"
   },
   {
@@ -11,6 +12,7 @@
     "name": "Chicken 65",
     "image": "chicken/c2.png",
     "price": "100",
+    "count": 1,
     "catergory": "chicken"
   },
   {
@@ -18,6 +20,7 @@
     "name": "Pepper Chicken",
     "image": "chicken/c3.png",
     "price": "150",
+    "count": 1,
     "catergory": "chicken"
   },
   {
@@ -25,6 +28,7 @@
     "name": "Fried chicken",
     "image": "chicken/c4.png",
     "price": "130",
+    "count": 1,
     "catergory": "chicken"
   },
   {
@@ -32,6 +36,7 @@
     "name": "Chicken Fry",
     "image": "chicken/c5.png",
     "price": "140",
+    "count": 1,
     "catergory": "chicken"
   },
   {
@@ -39,6 +44,7 @@
     "name": "Kadai Chicken",
     "image": "chicken/c6.png",
     "price": "130",
+    "count": 1,
     "catergory": "chicken"
   },
   {
@@ -46,6 +52,7 @@
     "name": "Fish Plate",
     "image": "fish/fi1.png",
     "price": "80",
+    "count": 1,
     "catergory": "fish"
   },
   {
@@ -53,6 +60,7 @@
     "name": "Fish Grill",
     "image": "fish/fi2.png",
     "price": "130",
+    "count": 1,
     "catergory": "fish"
   },
   {
@@ -60,6 +68,7 @@
     "name": "Fish Toast",
     "image": "fish/fi3.png",
     "price": "130",
+    "count": 1,
     "catergory": "fish"
   },
   {
@@ -67,6 +76,7 @@
     "name": "Fish Fry",
     "image": "fish/fi4.png",
     "price": "140",
+    "count": 1,
     "catergory": "fish"
   },
   {
@@ -74,6 +84,7 @@
     "name": "Fish Savage",
     "image": "fish/fi5.png",
     "price": "130",
+    "count": 1,
     "catergory": "fish"
   },
   {
@@ -81,6 +92,7 @@
     "name": "Strawberry",
     "image": "fruits/f1.png",
     "price": "80",
+    "count": 1,
     "catergory": "fruits"
   },
   {
@@ -88,6 +100,7 @@
     "name": "Pine Apple",
     "image": "fruits/f2.png",
     "price": "100",
+    "count": 1,
     "catergory": "fruits"
   },
   {
@@ -95,6 +108,7 @@
     "name": "Grapes",
     "image": "fruits/f3.png",
     "price": "80",
+    "count": 1,
     "catergory": "fruits"
   },
   {
@@ -102,6 +116,7 @@
     "name": "Fried Rice",
     "image": "rice/r1.png",
     "price": "130",
+    "count": 1,
     "catergory": "rice"
   },
   {
@@ -109,6 +124,7 @@
     "name": "Chicken Rice",
     "image": "rice/r2.png",
     "price": "130",
+    "count": 1,
     "catergory": "rice"
   },
   {
@@ -116,6 +132,7 @@
     "name": "Chicken Briyani",
     "image": "rice/r3.png",
     "price": "90",
+    "count": 1,
     "catergory": "rice"
   },
   {
@@ -123,6 +140,7 @@
     "name": "Tum Briyani",
     "image": "rice/r4.png",
     "price": "90",
+    "count": 1,
     "catergory": "rice"
   },
   {
@@ -130,6 +148,7 @@
     "name": "Coconut Rice",
     "image": "rice/r5.png",
     "price": "70",
+    "count": 1,
     "catergory": "rice"
   },
   {
@@ -137,6 +156,7 @@
     "name": "Red Bull",
     "image": "drinks/d1.png",
     "price": "130",
+    "count": 1,
     "catergory": "drinks"
   },
   {
@@ -144,6 +164,7 @@
     "name": "Pepsi",
     "image": "drinks/d2.png",
     "price": "130",
+    "count": 1,
     "catergory": "drinks"
   },
   {
@@ -151,6 +172,7 @@
     "name": "Monster",
     "image": "drinks/d3.png",
     "price": "130",
+    "count": 1,
     "catergory": "drinks"
   },
   {
@@ -158,6 +180,7 @@
     "name": "Blue Mint",
     "image": "drinks/d4.png",
     "price": "130",
+    "count": 1,
     "catergory": "drinks"
   },
   {
@@ -165,6 +188,7 @@
     "name": "Sprite",
     "image": "drinks/d5.png",
     "price": "130",
+    "count": 1,
     "catergory": "drinks"
   },
   {
@@ -172,6 +196,7 @@
     "name": "Fanta",
     "image": "drinks/d6.png",
     "price": "130",
+    "count": 1,
     "catergory": "drinks"
   },
   {
@@ -179,6 +204,7 @@
     "name": "Coca cola",
     "image": "drinks/d8.png",
     "price": "130",
+    "count": 1,
     "catergory": "drinks"
   }
 ]
