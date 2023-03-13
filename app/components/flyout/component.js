@@ -30,6 +30,9 @@ export default Component.extend({
     clearData() {
       this.shoppingCart.empty();
     },
+    removeItem(item) {
+      this.shoppingCart.remove(item);
+    },
     addQuantity(type) {
       let sub = this.subTotal + Number(type.price);
       set(type, 'count', type.count + 1);

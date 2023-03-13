@@ -149,3 +149,9 @@
   border-right: 10px solid transparent;
   border-bottom: 10px solid #fff;
 }
+.close-button {
+  position: absolute;
+  right: 1px;
+  top: -12px;
+  cursor: pointer;
+}
