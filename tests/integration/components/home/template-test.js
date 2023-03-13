@@ -10,15 +10,15 @@ module('Integration | Component | home/template', function (hooks) {
     // Set any properties with this.set('myProperty', 'value');
     // Handle any actions with this.set('myAction', function(val) { ... });
 
-    await render(hbs`<Home::Template />`);
+    await render(hbs`<Intro::Template />`);
 
     assert.dom(this.element).hasText('');
 
     // Template block usage:
     await render(hbs`
-      <Home::Template>
+      <Intro::Template>
         template block text
-      </Home::Template>
+      </Intro::Template>
     `);
 
     assert.dom(this.element).hasText('template block text');
