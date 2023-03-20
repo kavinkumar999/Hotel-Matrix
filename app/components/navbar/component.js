@@ -8,10 +8,14 @@ export default Component.extend({
   orderCount: computed('shoppingCart.items.[]', function() {
     return this.shoppingCart.items.length;
   }),
+  isShowingModal: false,
 
   actions: {
     toggleFlyout() {
       this.toggleProperty('isOpen');
     },
+    toggleModal() {
+      this.toggleProperty('isShowingModal');
+    }
   },
 });

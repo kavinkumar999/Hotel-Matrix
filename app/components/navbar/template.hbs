@@ -5,7 +5,7 @@
   </a>
   <div class="right-nav d-flex align">
     {{#if @login}}
-      <button class="btn btn-outline-dark" type="button">Login</button>
+      <button class="btn btn-outline-dark" {{action "toggleModal"}}  type="button">Login</button>
       <button  class="btn btn-outline-dark" type="button">Sign Up</button>
     {{else}}
       <LinkTo @route="home"class="btn btn-outline-dark">Home</LinkTo>
@@ -17,6 +17,11 @@
     {{/if}}
   </div>
 </nav>
+{{#if this.isShowingModal}}
+  {{#modal-dialog onClose=(action "toggleModal") targetAttachment="center" translucentOverlay=true}}
+    Login!
+  {{/modal-dialog}}
+{{/if}}
 {{#if this.isOpen}}
   <Flyout @isOpen={{this.isOpen}} @closeFlyout={{action "toggleFlyout"}}></Flyout>
 {{/if}}

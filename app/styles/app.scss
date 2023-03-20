@@ -1,5 +1,8 @@
+@import "ember-modal-dialog/ember-modal-structure";
+@import "ember-modal-dialog/ember-modal-appearance";
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@300;400;700&family=Roboto:wght@400;500;700&display=swap');
 @import 'home.scss';
+
 :root{
   --theme-color: #f97316;
   --bs-body-bg: #f5f3f3 !important;
