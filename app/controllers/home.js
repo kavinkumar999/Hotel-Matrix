@@ -36,11 +36,11 @@ export default Controller.extend({
   itemsData,
   foodData: computed('model', {
     get() {
-     return this.model.filterBy('catergory', 'chicken');
+      return this.model.filterBy('catergory', 'chicken');
     },
     set(key, value) {
       return value;
-    }
+    },
   }),
   cartItem: {},
 

@@ -18,8 +18,8 @@
   </div>
 </nav>
 {{#if this.isShowingModal}}
-  {{#modal-dialog onClose=(action "toggleModal") targetAttachment="center" translucentOverlay=true}}
-    Login!
+  {{#modal-dialog onClose=(action "toggleModal") targetAttachment="top-center" translucentOverlay=true}}
+    <Logincontent @close={{action 'toggleModal'}}></Logincontent>
   {{/modal-dialog}}
 {{/if}}
 {{#if this.isOpen}}

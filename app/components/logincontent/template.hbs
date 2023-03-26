@@ -1,0 +1,22 @@
+<div class="modal-header p-2 text-center" style="top: 40%;">
+  <h4 class="modal-title w-100 font-weight-bold">Login</h4>
+  <div class="cursor-pointer" {{action 'close'}}>
+    {{svg-jar "close" height="30px" width="30px"}}
+  </div>
+</div>
+<div class="border-line mt-2 mb-4"></div>
+<div class="modal-body mx-3">
+  <div class="mb-5">
+    <label class="mb-2" for="defaultForm-email">Your email</label>
+    <input type="email" placeholder="steve@gmail.com" id="defaultForm-email" class="form-control validate">
+  </div>
+  <div class="mb-4">
+    <label class="mb-2" for="defaultForm-pass">Your password</label>
+    <input type="password" placeholder="xxxxxx" id="defaultForm-pass" class="form-control validate">
+  </div>
+</div>
+<div class="border-line mt-2"></div>
+<div class="modal-footer d-flex justify-content-start p-3 gap-2">
+  <button {{action 'login'}} class="btn btn-primary">Let's Go</button>
+  <button {{action 'close'}} class="btn btn-outline-dark">Cancel</button>
+</div>
