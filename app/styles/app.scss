@@ -166,3 +166,18 @@
   position: relative;
   margin: auto;
 }
+
+//ember notify
+.ember-notify-cn {
+  top: 0;
+  color: white;
+}
+.ember-notify-show {
+  > a {
+    color: black;
+    text-decoration: none;
+  } 
+}
+.success {
+  background-color: #53B05A;
+}
