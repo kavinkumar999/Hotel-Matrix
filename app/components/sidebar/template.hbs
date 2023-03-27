@@ -1,0 +1,9 @@
+<h4 class="sidebar-title">
+  <img src="png/logo.png" width="30" height="30" class="d-inline-block align-top" alt="product-logo">
+  FoodiePro
+</h4>
+<ul class="nav nav-pills nav-stacked">
+  {{#each this.NavbarMenu as |menu|}}
+    <LinkTo @route="{{menu.route}}">{{menu.label}}</LinkTo>
+  {{/each}}
+</ul>

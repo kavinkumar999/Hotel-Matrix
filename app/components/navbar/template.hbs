@@ -1,8 +1,10 @@
-<nav class="navbar navbar-light mt-4">
-  <a class="navbar-brand" href="#">
-    <img src="png/logo.png" width="30" height="30" class="d-inline-block align-top" alt="product-logo">
-    FoodiePro
-  </a>
+<nav class="navbar navbar-light mt-4 {{if @login 'justify-content-between'  'justify-content-end'}}">
+  {{#if @login}}
+    <a class="navbar-brand" href="#">
+      <img src="png/logo.png" width="30" height="30" class="d-inline-block align-top" alt="product-logo">
+      FoodiePro
+    </a>
+  {{/if}}
   <div class="right-nav d-flex align">
     {{#if @login}}
       <button class="btn btn-outline-dark" {{action "toggleModal"}}  type="button">Login</button>
