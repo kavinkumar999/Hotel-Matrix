@@ -1,9 +1,19 @@
-<h4 class="sidebar-title">
-  <img src="png/logo.png" width="30" height="30" class="d-inline-block align-top" alt="product-logo">
-  FoodiePro
-</h4>
-<ul class="nav nav-pills nav-stacked">
-  {{#each this.NavbarMenu as |menu|}}
-    <LinkTo @route="{{menu.route}}">{{menu.label}}</LinkTo>
-  {{/each}}
-</ul>
+<div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark">
+  <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+    <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+    <span class="fs-4">Foodie Pro</span>
+  </a>
+  <hr>
+  <ul class="nav nav-pills flex-column mb-auto">
+    {{#each this.NavbarMenu as |menu|}}
+      {{!-- template-lint-disable no-link-to-tagname --}}
+      {{!-- template-lint-disable no-unknown-arguments-for-builtin-components --}}
+      <li class="nav-item">
+        <LinkTo @route="{{menu.route}}" @currentWhen='{{menu.currentWhen}}' class="nav-link text-white">
+          <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"/></svg>
+          {{menu.label}}
+        </LinkTo>
+      </li>
+    {{/each}}
+  </ul>
+</div>

@@ -4,14 +4,17 @@ import { inject as  service } from '@ember/service';
 let NavbarMenu = [{
   label: 'Home',
   route: 'home',
+  currentWhen: 'home',
   icon: 'home'
 }, {
   label: 'Orders',
-  route: 'home',
+  route: 'orders',
+  currentWhen: 'orders',
   icon: 'home'
 }, {
   label: 'Reports',
-  route: 'home',
+  route: 'reports',
+  currentWhen: 'reports',
   icon: 'home'
 }]
 
