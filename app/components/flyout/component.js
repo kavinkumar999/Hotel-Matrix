@@ -5,18 +5,22 @@ import { inject as service } from '@ember/service';
 export default Component.extend({
   shoppingCart: service(),
 
-  delivery: computed('shoppingCart.items.[]', 'shoppingCart.items.@each.count', function () {
-    return (this.shoppingCart.items.length && this.subTotal !==0 ) ? 25 : 0;
+  delivery: computed('shoppingCart.items.@each.count', 'subTotal', function () {
+    return this.shoppingCart.items.length && this.subTotal !== 0 ? 25 : 0;
   }),
 
-  subTotal: computed('shoppingCart.items.[]', 'shoppingCart.items.@each.count', function () {
-    let subTotal = 0;
-    this.shoppingCart.items.forEach((element) => {
-      subTotal = subTotal + (Number(element.price) * Number(element.count));
-    });
+  subTotal: computed(
+    'shoppingCart.items.[]',
+    'shoppingCart.items.@each.count',
+    function () {
+      let subTotal = 0;
+      this.shoppingCart.items.forEach((element) => {
+        subTotal = subTotal + Number(element.price) * Number(element.count);
+      });
 
-    return subTotal;
-  }),
+      return subTotal;
+    }
+  ),
   total: computed('subTotal', 'delivery', function () {
     return this.subTotal + this.delivery;
   }),

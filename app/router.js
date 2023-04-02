@@ -10,4 +10,5 @@ Router.map(function () {
   this.route('home');
   this.route('orders');
   this.route('reports');
+  this.route('unauthorized');
 });
