@@ -10,8 +10,6 @@
       <button class="btn btn-outline-dark" {{action "toggleModal"}}  type="button">Login</button>
       <button  class="btn btn-outline-dark" type="button">Sign Up</button>
     {{else}}
-      <LinkTo @route="home"class="btn btn-outline-dark">Home</LinkTo>
-      <LinkTo @route="orders"class="btn btn-outline-dark">Orders</LinkTo>
       <div {{action "toggleFlyout"}} class="cart-container">
         <img src="png/cart.png" width="30px" height="30px">
         <span class="order-count rounded-pill">{{this.orderCount}}</span>

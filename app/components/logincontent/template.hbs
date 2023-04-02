@@ -6,13 +6,19 @@
 </div>
 <div class="border-line mt-2 mb-4"></div>
 <div class="modal-body mx-3">
-  <div class="mb-5">
-    <label class="mb-2" for="defaultForm-email">Your email</label>
-    <input type="email" placeholder="steve@gmail.com" id="defaultForm-email" class="form-control validate">
+  <div class="mb-5 w-75">
+    <label class="w-100" for="defaultForm-email">
+      Your email
+      <br>
+      <Input @type="email" placeholder="steve@gmail.com"  class="form-control mt-3" @value={{this.email}}/>
+    </label>
   </div>
-  <div class="mb-4">
-    <label class="mb-2" for="defaultForm-pass">Your password</label>
-    <input type="password" placeholder="xxxxxx" id="defaultForm-pass" class="form-control validate">
+  <div class="mb-4 w-75">
+    <label class="w-100" for="defaultForm-pass">
+      Your password
+      <br>
+      <Input @type="password" placeholder="xxxxxx" class="form-control mt-3" @value={{this.password}}/>
+    </label>
   </div>
 </div>
 <div class="border-line mt-2"></div>
