@@ -11,4 +11,5 @@ Router.map(function () {
   this.route('orders');
   this.route('reports');
   this.route('unauthorized');
+  this.route('page-not-found', { path: '/*path'});
 });
