@@ -10,12 +10,12 @@ let NavbarMenu = [{
   label: 'Orders',
   route: 'orders',
   currentWhen: 'orders',
-  icon: 'home'
+  icon: 'orders'
 }, {
   label: 'Reports',
   route: 'reports',
   currentWhen: 'reports',
-  icon: 'home'
+  icon: 'reports'
 }]
 
 export default Component.extend({
